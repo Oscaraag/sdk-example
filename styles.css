@@ -1,0 +1,51 @@
+/* Estilos Generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+#data-container {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+pre {
+  background-color: #f4f4f8;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+/* Especificaciones para los estilos de los diferentes tipos de datos */
+div > div {
+  margin-bottom: 20px;
+}
+
+/* Estilos para el ticket de éxito */
+h2.Success {
+  background-color: #28a745;
+}
+
+/* Estilos para el ticket siendo llamado */
+h2.Call {
+  background-color: #ffc107;
+}
+
+/* Estilos para los errores */
+h2.Error {
+  background-color: #dc3545;
+}
